@@ -3,7 +3,7 @@ name: "STAGING DEPLOY"
 on:
     push:
         branches:
-            - staging
+            - development
 
 permissions:
     id-token: write
