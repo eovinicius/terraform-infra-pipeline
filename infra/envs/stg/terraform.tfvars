@@ -1,0 +1,1 @@
+backet_name="stg-us-east-1-pipeline"
