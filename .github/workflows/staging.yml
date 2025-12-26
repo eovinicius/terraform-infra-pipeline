@@ -13,7 +13,7 @@ jobs:
     terraform:
         uses: ./.github/workflows/terraform.yml
         with:
-            environment: staging
+            environment: stg 
             aws-assume-role-arn: "arn:aws:iam::033954890483:role/github-actions-eovinicius-pipeline"
             aws-region: us-east-1
             aws-statefile-s3-bucket: "eovinicius-us-east-1-terraform-statefile"
